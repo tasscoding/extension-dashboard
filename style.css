@@ -1,0 +1,424 @@
+/*desktop design*/
+
+/*!!!!!!!!!dark mode!!!!!!!!!!!*/
+/*pour le body ici debut*/
+body{
+     background: linear-gradient(rgb(0, 0, 50)30%,rgb(1, 1, 81));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 11%;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Au lieu de height: 100% */
+    background-attachment: fixed;
+}
+/*ici fin*/
+
+/*pour extention ici le debut*/
+.extention{
+    display: grid;
+    grid-template-columns: 1fr 0.05fr;
+    gap: 20px;
+    background-color: rgb(40, 40, 62);
+    border-radius: 10px;
+    width: 99%;
+    padding: 8px;
+}
+.extention img{
+    width: 150px;
+    height: 40px;
+}
+.button{
+    background-color: rgb(51, 50, 77);
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+}
+.extention .button img{
+    width: 22px;
+    height: 22px;
+}
+/*ici fin*/
+
+/*pour .extention list ici le debut*/
+.list{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    gap: 50px;
+    width: 100%;
+}
+.list h1{
+    margin-top: 0px;
+}
+/* ici fin*/
+
+/*pour les icones les boutons ici le debut*/
+.ic{
+    background-color: rgb(51, 50, 77);
+    color: white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(94, 94, 94);
+    height: 40px;
+}
+.ic:hover{
+    background-color: rgb(205, 56, 2);
+    color: rgb(40, 40, 62);
+}
+.icon{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    gap: 10px;
+}
+/*ici fin*/
+
+/*les inchangeables ici debut*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 950px;
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+}
+.text p{
+    font-size: 13px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+    font-weight: 1px;
+}
+.text span{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+.text{
+    display: grid;
+    grid-template-columns: 0.1fr 1.2fr;
+    gap: 16px;
+}
+.extlist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+.extlistall{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.bt{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border-style: none;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s ease;
+}
+.btt{
+    background-color:rgb(205, 56, 2);
+    border-radius: 20px;
+    width: 40px;
+    height: 20px;
+    margin-top: 6px;
+    position: relative;
+}
+.remove{
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+/*ici fin*/
+
+/* les items ici le debut*/
+.item{
+    padding: 15px;
+    background-color:rgb(40, 40, 62) ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    height: 130px;
+     min-width: 250px;
+     flex: 1 1 calc(33.333% - 10px);
+}
+.itemother{
+    width:33.33%;
+    padding: 15px;
+    background-color:rgb(40, 40, 62) ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    height: 130px;
+}
+.item img{
+    width: 45px;
+    height: 45px;
+    margin-top: 0px;
+}
+/*ici fin*/
+
+/*les boutons remove ici le debut*/
+.removerm{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgb(94, 94, 94);;
+    color: white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+/* .remove .rm:focus{
+    border-style:dashed;
+    border-color: rgb(205, 56, 2) black;
+    background-color: rgb(86, 86, 86);
+    color: white;
+    border-width: 2px;
+} */
+.remove .rm:hover{
+    background-color: rgb(205, 56, 2);
+    color: rgb(40, 40, 62);
+    border-color: rgba(240, 248, 255, 0);
+}
+/*ici fin*/
+
+/*desktop design*/
+ /*!!!!!!!!!!light mode!!!!!!!!!!!*/
+.lightbody{
+    color: black;
+    background:rgb(229, 240, 248)
+}
+.lightext{
+    background-color: white;
+}
+.lightsun{
+    background-color: rgb(229, 227, 227);
+}
+.lighticon{
+    background-color: white;
+    color: black;
+    border-color: rgb(224, 223, 223);
+} 
+.lighticon:hover{
+    color: white;
+}
+.lightitem{
+    background-color: white;
+    border-color: rgb(224, 223, 223);
+}
+.lightremove{
+    color:black ;
+    border-color: rgb(224, 223, 223);
+}
+.hiddenitem{
+    display: none;
+}
+.btinac{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border-style: none;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 1px;
+    left: 21px;
+    transition: left 0.3s ease;
+}
+.bttinac{
+    background-color:gray;
+    display: flex;
+    justify-items: left;
+}
+.removed{
+    display: none;
+}
+/* Tablet design - up to 1024px */
+@media (max-width: 1024px) {
+    .main {
+        width: 90%;
+    }
+    .extlist {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .item {
+        min-width: 200px;
+    }
+}
+
+/* Mobile design - up to 768px */
+@media (max-width: 768px) {
+    body {
+        padding-left: 5%;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .list h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .main {
+        width: 80%;
+    }
+    .icon {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .extlist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .item {
+        width: 100%;
+        max-width: 400px;
+    }
+    .remove {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* Small mobile design - up to 425px */
+@media (max-width: 425px) {
+    body {
+        padding-left: 2%;
+        font-size: 14px;
+    }
+    .extention {
+        grid-template-columns: 1fr 0.05fr;
+        text-align: left;
+    }
+    .extention img {
+        width: 120px;
+        height: 30px;
+    }
+    .button {
+        width: 35px;
+        height: 35px;
+    }
+    .extention .button img {
+        width: 18px;
+        height: 18px;
+    }
+    .list h1 {
+        font-size: 20px;
+    }
+    .main {
+        width: 95%;
+    }
+    .icon {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        justify-items: center;
+    }
+    .ic {
+        padding: 6px 10px;
+        height: 35px;
+    }
+    .extlist {
+        gap: 8px;
+    }
+    .item {
+        padding: 10px;
+        height: auto;
+        min-height: 120px;
+    }
+    .item img {
+        width: 35px;
+        height: 35px;
+    }
+    .text p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .text span {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .remove {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .removerm {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    .bt {
+        width: 16px;
+        height: 16px;
+        margin-left: 40%;
+    }
+    .btt {
+        width: 35px;
+        height: 18px;
+        margin-top: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
